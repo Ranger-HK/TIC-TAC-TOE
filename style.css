@@ -1,0 +1,84 @@
+. {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.background{
+    background-color: rgba(245, 170, 59, 0.94);
+    height: 100vh;
+    padding-top: 1px;
+}
+
+
+.title{
+    color: #105750;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.display{
+    color: #443232;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.tile{
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX{
+    color: #479bf1;
+}
+
+.player0{
+    color: #479bf1;
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.controls button {
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #16a085;
+}
+
+#reset {
+    background-color: #23a076;
+}
